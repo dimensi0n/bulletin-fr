@@ -1,7 +1,7 @@
 {
-    "name": "bulletin",
-    "description": "A Ghost theme",
-    "version": "1.0.0",
+    "name": "bulletin-fr",
+    "description": "A Ghost theme translated in French",
+    "version": "1.0.1",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -57,6 +57,21 @@
                 "options": ["Full", "Wide", "Small"],
                 "default": "Small",
                 "group": "post"
+            },
+            "home_main_title": {
+                "type": "text",
+                "default": "Ne manque rien",
+                "group": "homepage"
+            },
+            "home_main_subtitle": {
+                "type": "text",
+                "default": "Ne manquez pas les derniers numéros. Inscrivez-vous dès maintenant pour accéder au contenu réservé aux membres.",
+                "group": "homepage"
+            },
+            "home_example_mail": {
+                "type": "text",
+                "default": "martin.dupont@gmail.com",
+                "group": "homepage"
             }
         }
     },
